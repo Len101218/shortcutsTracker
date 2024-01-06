@@ -37,3 +37,10 @@ See [json](./json/README.md).
 Todo
 
 ## Todos
+In future the following features will be added:
+- Parsing config files automatically
+- utility to create the keyboard layout in the gui
+- pressing shortcuts can change context
+- names instead of rgb code for specific colors
+- descriprion of colors
+- long description for shortcuts in a seperated field
