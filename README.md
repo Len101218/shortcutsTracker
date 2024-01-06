@@ -14,8 +14,8 @@ Default i3 context:
 i3 shortcuts when meta and shift are pressed:
 ![image](https://github.com/Len101218/shortcutsTracker/assets/105433861/20dd86c0-ab38-4291-a9db-e9584c09cafd)
 
-Usually you want to disable all shortcuts for other applications / your OS while using this application.
-This depends on the environment.
+Usually you want to disable all shortcuts for other applications / your OS while using this application.  
+This step depends on your environment.
 
 ### Using i3
 I recommend adding the following to the i3 config.  
