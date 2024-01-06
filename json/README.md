@@ -59,7 +59,7 @@ This doesnt work recursively.
 The `default.json` file inside a context_directory is a special file, that represent the keybindings in that mode.
 
 ### Modifier
-The other Files are named after (combinations of ) modifer keys, specified in your keyboard.json file.
+The other files are named after (combinations of ) modifer keys, specified in your keyboard.json file.
 Combinations are just joined together(CamelCase) in alphanumerical order.
 For example the Keybindings for Shift are stored in `Shift.json` and the one for `Shift+Ctrl` in `CtrlShift.json`.
 
