@@ -64,12 +64,12 @@ writeTranslations(){
       .toList();
 
   // Your JSON data
-  Map<String, dynamic> jsonData = {
-    'knownKeys': knownKeys,
-  };
+  //Map<String, dynamic> jsonData = {
+  //  'knownKeys': knownKeys,
+  //};
 
   // Convert JSON data to a string
-  String jsonString = jsonEncode(jsonData);
+  String jsonString = jsonEncode(knownKeys);
 
   // Specify the file path
   String filePath = '$pathToJsonFolder/known_keys.json';

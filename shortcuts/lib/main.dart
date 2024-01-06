@@ -14,6 +14,7 @@ void main(List<String> args) {
     pathToJsonFolder=args[1];
   }
   pathToJsonFolder = expandPath(pathToJsonFolder);
+  //writeTranslations();
   runApp(MyApp());
 }
 
