@@ -5,7 +5,7 @@ Another location can be specified as first argument to the program.
 
 
 ## structure of ~/.config/shortcuts
-Every subdirectorie in this directory is considered to be a so called context.  
+Every subdirectory in this directory is considered to be a so called context.  
 The only exception is `templates`, that can contain any content, but in this repo just templates:).
 
 
