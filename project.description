@@ -1,7 +1,9 @@
-5. support different environments (apps)
+Make Modifier keys changing context
+
 6. support parsing of their config files
+
 7. legende for colours
 8. color names like mode etc.
-Make Modifier keys changing context
+
+
 4. support longer descriptions on the bottom: really needed? Wait for some usecase
-support different modes like playr: solved threw context

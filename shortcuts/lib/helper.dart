@@ -14,19 +14,17 @@ class Pair<T1, T2> {
 }
 
 //pressed(red) > config (0x...) > changed (yellow) > default (blue)
-Pair<String, Color> getText(String keyId, List<String> modifier, String defaultText){
+Pair<String, Color> getText(String keyId, List<String> modifier, String defaultText, String ctx){
+  String filepath="default";
+  if(modifier.isNotEmpty){
+    // Sort the list alphabetically
+    modifier.sort();
 
-  if(modifier.isEmpty){
-    return Pair(defaultText,Colors.blue);
+    // Concatenate the sorted strings into one string
+    filepath = modifier.join();
   }
-  // Sort the list alphabetically
-  modifier.sort();
-
-  // Concatenate the sorted strings into one string
-  String filepath = modifier.join();
-
   // Specify the path to the file
-  String filePath = '$pathToJsonFolder/i3/$filepath.json';
+  String filePath = '$pathToJsonFolder/$ctx/$filepath.json';
 
   var file = File(filePath);
 
@@ -132,4 +130,27 @@ String getHomeDirectory() {
   } else {
     return Platform.environment['HOME']!;
   }
+}
+
+List<String> getSubdirectories() {
+  List<String> subdirectories = [];
+
+  Directory directory = Directory(pathToJsonFolder);
+
+  if (directory.existsSync()) {
+    List<FileSystemEntity> entities = directory.listSync();
+
+    for (FileSystemEntity entity in entities) {
+      if (entity is Directory) {
+        String fullPath = entity.path;
+        String directoryName = fullPath.substring(fullPath.lastIndexOf(Platform.pathSeparator)+1);
+        subdirectories.add(directoryName);
+      }
+    }
+    subdirectories.remove('templates');
+  } else {
+      print('Directory does not exist: $pathToJsonFolder');
+  }
+  //print(subdirectories);
+  return subdirectories;
 }

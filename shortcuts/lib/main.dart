@@ -8,6 +8,7 @@ import 'package:flutter/services.dart';
 import 'helper.dart';
 
 String pathToJsonFolder="~/.config/shortcuts";
+
 void main(List<String> args) {
   if (args.length>1){
     pathToJsonFolder=args[1];
@@ -34,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Map<String, dynamic>? keyboardLayout;
   List<String> pressedKeys = [];
   List<String> modifier = [];
-
+  String? ctx;
 
   @override
   void initState() {
@@ -85,6 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
       setState(() {
         keyboardLayout = layout;
+        ctx = keyboardLayout!['context'];
       });
     } catch (e) {
       print('Error loading keyboard layout: $e');
@@ -142,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             if (keyboardLayout != null)
-              ContextSelection(ctx: keyboardLayout!['context']),
+              ContextSelection(ctx: ctx!),
             const SizedBox(height: 20),
           ],
         ),
@@ -161,13 +163,14 @@ class ContextSelection extends StatefulWidget {
 class _ContextSelectionState extends State<ContextSelection> {
   ValueNotifier<String?> selectedOption;
 
-  List<String> dropdownOptions = ['i3','Option 1', 'Option 2', 'Option 3'];
+  List<String> dropdownOptions = getSubdirectories();
   TextEditingController textEditingController = TextEditingController();
   _ContextSelectionState(String initialContext) : selectedOption = ValueNotifier<String?>(initialContext){
     textEditingController.text = initialContext;
   }
   @override
   Widget build(BuildContext context) {
+    final pageState = context.findAncestorStateOfType<_MyHomePageState>();
     var filtered = dropdownOptions
           .where((option) => option.startsWith(textEditingController.text))
           .toList()
@@ -192,6 +195,7 @@ class _ContextSelectionState extends State<ContextSelection> {
     // we select always the first if there are several possibilities
     //another option would be to select the first only, if the old selection doesn't fit anymore to the filtered options.
     selectedOption.value = filtered.first.value;
+    pageState!.ctx = filtered.first.value;
     //}
     return Container(
       width: 500,
@@ -207,6 +211,7 @@ class _ContextSelectionState extends State<ContextSelection> {
               setState(() {
                 if (dropdownOptions.contains(value)){
                   selectedOption.value = value;
+                  pageState.ctx = filtered.first.value;
                 }
               });
             },
@@ -221,6 +226,7 @@ class _ContextSelectionState extends State<ContextSelection> {
             onChanged: (value) {
               setState(() {
                 selectedOption.value = value;
+                pageState.ctx = filtered.first.value;
                 textEditingController.text = value!;
               });
             },
@@ -266,7 +272,7 @@ class KeyboardRow extends StatelessWidget {
             final keyLabel = nestedColumn['text'];
             final keyId = nestedColumn['key_id'];
             var pos = nestedColumn['pos'];
-            Pair<String,Color> pair = getText(keyId, modifier,keyLabel);
+            Pair<String,Color> pair = getText(keyId, modifier,keyLabel,pageState.ctx!);
             var text = pair.first;
             var color = pair.second;
 
@@ -334,7 +340,7 @@ class KeyboardRow extends StatelessWidget {
         else {
           final keyLabel = column['text'];
           final keyId = column['key_id'];
-          Pair<String,Color> pair = getText(keyId, modifier,keyLabel);
+          Pair<String,Color> pair = getText(keyId, modifier,keyLabel,pageState.ctx!);
           var text = pair.first;
           var color = pair.second;
           var pos = column['pos'];
