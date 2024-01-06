@@ -19,14 +19,14 @@ This depends on the environment.
 
 ### Using i3
 I recommend adding the following to the i3 config.  
-`
+```
 mode "shortcuts"{  
-    #just empty to clean everything else  \n
+    #just empty to clean everything else 
     bindsym Escape mode "default", exec "pkill shortcuts"  
     bindsym $mod+Escape mode "default"  
 }  
 bindsym $mod+Shift+S mode "shortcuts", exec "shortcuts"  
-`  
+```
 This way you can start the application shortcuts with `mod+shift+s` and all other keybindings are disabled until you press escape.
 
 
