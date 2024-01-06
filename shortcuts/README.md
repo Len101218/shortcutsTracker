@@ -20,4 +20,4 @@ In the end add it to the path (in my case `/opt` is in the PATH):
 `ln -s /opt/shortcuts $(pwd)/build/linux/release/bundle/shortcuts`
 
 ### Windows, ...
-As it is flutter, oen should be able to build it also on "all" other architectures, but this is untested and no installation guide is given.
+As it is flutter, one should be able to build it also on "all" other architectures, but this is untested and no installation guide is given.
