@@ -21,7 +21,7 @@ This depends on the environment.
 I recommend adding the following to the i3 config.  
 `
 mode "shortcuts"{  
-    #just empty to clean everything else  
+    #just empty to clean everything else  \n
     bindsym Escape mode "default", exec "pkill shortcuts"  
     bindsym $mod+Escape mode "default"  
 }  
