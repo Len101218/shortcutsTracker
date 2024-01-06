@@ -1,16 +1,23 @@
 # shortcuts
 
-A new Flutter project.
+This is the Flutter source code for this project.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+### Linux
+To install clone this repo and execute: 
 
-A few resources to get you started if this is your first Flutter project:
+`
+$ flutter build --release
+`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The binary is builded and can be found in `./build/linux/release/bundle/shortcuts`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+In the end add it to the path (in my case `/opt` is in the PATH):
+
+
+`ln -s /opt/shortcuts $(pwd)/build/linux/release/bundle/shortcuts`
+
+### Windows, ...
+As it is flutter, one should be able to build it also on "all" other architectures, but this is untested and no installation guide is given.
