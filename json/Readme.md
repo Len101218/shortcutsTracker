@@ -24,17 +24,17 @@ The file contains one json object with the attributs:
 - context (String): the default context
 - rows(Array): contains all keyboard rows
 
-One row inside the above row array has the attributes:
+One **row** inside the above row array has the attributes:
 - row_num(int): 0,...,
 - columns(Array): Array of columns (should be named keys)
 
-One key in the columns array has the attributes:
+One key in the **columns array** has the attributes:
 - key_id(String): The keyId to the PhysicalkeyCode (can be found in known_keys.json)
 - text(String): The printed text on the key in the application
 - modifier(String / null ): If and which modifier this key should trigger
 - pos: Where to place this key
 
-The pos determines the size and relative position of the key:
+The **pos** determines the size and relative position of the key:
 - x(double): width of free space before key
 - y(double): height of free space before key
 - h(double): height of key
