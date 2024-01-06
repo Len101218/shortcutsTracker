@@ -1,6 +1,7 @@
-1. add all modifier
-2. make release version working
-3. support colour for non default texts.
-4. support longer descriptions on the bottom
 5. support different environments (apps)
 6. support parsing of their config files
+7. legende for colours
+8. color names like mode etc.
+Make Modifier keys changing context
+4. support longer descriptions on the bottom: really needed? Wait for some usecase
+support different modes like playr: solved threw context

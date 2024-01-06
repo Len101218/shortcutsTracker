@@ -1,0 +1,128 @@
+{
+  "layout":"Lenovo",
+  "context":"i3",
+  "rows": [
+    {
+      "row_num": 0, 
+      "columns":[
+        {"key_id":"Escape","text":"Caps", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":1.2}},
+        {"key_id":"F1","text":"F1", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F2","text":"F2", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F3","text":"F3", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F4","text":"F4", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F5","text":"F5", "modifier": null ,"pos":{"x":10,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F6","text":"F6", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F7","text":"F7", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F8","text":"F8", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F9","text":"F9", "modifier": null ,"pos":{"x":10,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F10","text":"F10", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F11","text":"F11", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"F12","text":"F12", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"Home","text":"Pos1", "modifier": null ,"pos":{"x":10,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"End","text":"Ende", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"Insert","text":"Einfg", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.8}},
+        {"key_id":"Delete","text":"Entf", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":1.2}}
+      ]
+    },
+    {
+      "row_num":1, 
+      "columns":[
+        {"key_id":"Backquote","text":"`", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 1","text":"1", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 2","text":"2", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 3","text":"3", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 4","text":"4", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 5","text":"5", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 6","text":"6", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 7","text":"7", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 8","text":"8", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 9","text":"9", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Digit 0","text":"0", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Minus","text":"-", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Equal","text":"=", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Backspace","text":"Del", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":2.0}}
+      ]
+    },
+    {
+      "row_num":2, 
+      "columns":[
+        {"key_id":"Tab","text":"Tab", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.5}},
+        {"key_id":"Key Q","text":"q", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key W","text":"w", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key E","text":"e", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key R","text":"r", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key T","text":"t", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key Y","text":"y", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key U","text":"u", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key I","text":"i", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key O","text":"o", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key P","text":"p", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Bracket Left","text":"[", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Bracket Right","text":"]", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Enter","text":"Enter", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.5}}
+      ]
+    },
+    {
+      "row_num":3, 
+      "columns":[
+        {"key_id":"Caps Lock","text":"Escape", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.7}},
+        {"key_id":"Key A","text":"a", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key S","text":"s", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key D","text":"d", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key F","text":"f", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key G","text":"g", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key H","text":"h", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key J","text":"j", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key K","text":"k", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key L","text":"l", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Semicolon","text":";", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Quote","text":"'", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Backslash","text":"\\", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Enter","text":"Enter", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.3}}
+      ]
+    },
+    {
+      "row_num":4,
+      "columns":[
+        {"key_id":"Shift Left","text":"Shift L", "modifier": "Shift" ,"pos":{"x":0,"y":0,"h":1.0,"w":1.3}},
+        {"key_id":"Intl Backslash","text":"\\", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key Z","text":"z", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key X","text":"x", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key C","text":"c", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key V","text":"v", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key B","text":"b", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key N","text":"n", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Key M","text":"m", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Comma","text":",", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Period","text":".", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Slash","text":"/", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Shift Right","text":"Shift R", "modifier": "Shift" ,"pos":{"x":0,"y":0,"h":1.0,"w":2.8}}
+      ]
+    },
+    {
+      "row_num":5,
+      "columns":[
+        {"key_id":"Wake Up","text":"Fn", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Control Left","text":"Strg L", "modifier": "Strg" ,"pos":{"x":0,"y":0,"h":1.0,"w":1.25}},
+        {"key_id":"Meta Left","text":"Meta", "modifier": "Meta" ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Alt Left","text":"Alt L", "modifier": "Alt" ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Space","text":"Space", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":5.45}},
+        {"key_id":"Alt Right","text":"Alt Gr", "modifier": "Alt GR" ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Print Screen","text":"Print", "modifier": null ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        {"key_id":"Control Right","text":"Strg R", "modifier": "Strg" ,"pos":{"x":0,"y":0,"h":1.0,"w":1.0}},
+        [
+          {"key_id":"Page Up","text":"P Up", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.85}},
+          {"key_id":"Arrow Left","text":"Left", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.85}}
+        ],
+        [
+          {"key_id":"Arrow Up","text":"Up", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.85}},
+          {"key_id":"Arrow Down","text":"Down", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.85}}
+        ],
+        [
+          {"key_id":"Page Down","text":"P Down", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.85}},
+          {"key_id":"Arrow Right","text":"Right", "modifier": null ,"pos":{"x":0,"y":0,"h":0.5,"w":0.85}}
+        ]
+      ]
+    }
+  ]
+}
