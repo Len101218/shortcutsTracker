@@ -1,6 +1,6 @@
 # shortcutsTracker
 ## Installation
-see [json](./shortcuts/README.md).
+see [shortcuts](./shortcuts/README.md).
 ## Usage
 ## Configuration
 see [json](./json/README.md)
