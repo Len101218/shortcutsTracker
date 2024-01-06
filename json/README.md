@@ -67,7 +67,8 @@ For example the Keybindings for Shift are stored in `Shift.json` and the one for
 They all contain a json list of objects with the following attributes of type String:
 - key_id: The key_id specified in keyboard.json
 - text: The keyLabel shown in the application
-- color (optional): The color of the key in the following format "XXRRGGBB" where XX is the opacity of the color.
+- color (optional): The color of the key in the following hex-format "XXRRGGBB" where XX is the opacity of the color.
+    - Red would be FFFF0000
 
 An example can be seen in templates/full.json.
 
