@@ -7,3 +7,4 @@ Make Modifier keys changing context
 
 
 4. support longer descriptions on the bottom: really needed? Wait for some usecase
+5. support recursive directories in json
